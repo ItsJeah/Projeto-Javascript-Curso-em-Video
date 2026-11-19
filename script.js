@@ -1,4 +1,4 @@
-// 1. Verifica se um número é par ou ímpar.
+
 const campoNumero = document.querySelector("#numero");
 const botaoVerificar = document.querySelector("#verificar");
 const resultadoPar = document.querySelector("#resultadoPar");
@@ -23,7 +23,7 @@ function verificarNumero() {
 }
 botaoVerificar.addEventListener("click", verificarNumero);
 
-// 2. Calcula a média de duas notas e informa a situação.
+
 const campoNota1 = document.querySelector("#nota1");
 const campoNota2 = document.querySelector("#nota2");
 const botaoCalcular = document.querySelector("#calcular");
@@ -59,7 +59,7 @@ function calcularMedia() {
 }
 botaoCalcular.addEventListener("click", calcularMedia);
 
-// 3. Adiciona tarefas à lista. Cada item pode ser marcado ou removido.
+
 const campoTarefa = document.querySelector("#tarefa");
 const botaoAdicionar = document.querySelector("#adicionar");
 const listaTarefas = document.querySelector("#listaTarefas");
@@ -106,7 +106,7 @@ campoTarefa.addEventListener("keydown", function (evento) {
   }
 });
 
-// 4. Alterna o tema da página com uma classe CSS.
+
 const botaoTema = document.querySelector("#tema");
 const resultadoTema = document.querySelector("#resultadoTema");
 
